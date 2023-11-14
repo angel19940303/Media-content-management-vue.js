@@ -1,0 +1,23 @@
+{
+  "defaultSport": "soccer",
+  "defaultLanguage": "ENGLISH",
+  "unknownLanguage": "UNKNOWN_LANGUAGE",
+  "languages": [
+    { "name": "Arabic", "code": "ARABIC", "shortCode": "AR" },
+    { "name": "Czech", "code": "CZECH", "shortCode": "CS" },
+    { "name": "Danish", "code": "DANISH", "shortCode": "DA" },
+    { "name": "English", "code": "ENGLISH", "shortCode": "EN" },
+    { "name": "French", "code": "FRENCH", "shortCode": "FR" },
+    { "name": "German", "code": "GERMAN", "shortCode": "DE" },
+    { "name": "Italian", "code": "ITALIAN", "shortCode": "IT" },
+    { "name": "Portuguese", "code": "PORTUGUESE", "shortCode": "PT" },
+    { "name": "Russian", "code": "RUSSIAN", "shortCode": "RU" },
+    { "name": "Spanish", "code": "SPANISH", "shortCode": "ES" },
+    { "name": "Dutch", "code": "DUTCH", "shortCode": "NL" },
+    { "name": "Swedish", "code": "SWEDISH", "shortCode": "SV" },
+    { "name": "Japanese", "code": "JAPANESE", "shortCode": "JA" },
+    { "name": "Hindi", "code": "HINDI", "shortCode": "HI" }
+  ],
+  "imageDevBaseUrl": "https://static.snaptech.dev/dev-images/",
+  "imageProdBaseUrl": "https://static.snaptech.dev/images/"
+}

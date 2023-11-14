@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.rst__rowWrapper {
+  padding: 2px 2px 2px 0;
+}
+
+.rst__moveHandle,
+.rst__rowContents {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.rst__rowContents:first-child {
+  border-left: 32px solid #efefef;
+}
+
+.rst__moveHandle {
+  width: 32px;
+  border-radius: 0;
+}
+
+.rst__rowTitle {
+  font-weight: normal;
+}
+
+.rst__toolbarButton button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  margin-left: 2px;
+  outline: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.rst__toolbarButton button svg {
+  vertical-align: middle;
+}
+
+.rst__rowLabel {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.rst__rowTitleWithSubtitle {
+  font-size: unset;
+  height: unset;
+}
+
+.rst__rowSubtitle {
+  display: block;
+  margin-right: 5px;
+  padding: 0 5px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  line-height: unset;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+/*
+appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+ */

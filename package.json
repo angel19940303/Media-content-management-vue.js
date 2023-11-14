@@ -1,0 +1,76 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.3.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/file-saver": "^2.0.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-sortable-tree": "^0.3.12",
+    "@types/react-window": "^1.8.2",
+    "date-fns": "^2.25.0",
+    "diff": "^5.1.0",
+    "draft-js-export-html": "^1.4.1",
+    "file-saver": "^2.0.5",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.10",
+    "mui-rte": "^1.29.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^12.0.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-sortable-tree": "^2.8.0",
+    "react-virtualized": "^9.22.3",
+    "react-window": "^1.8.5",
+    "source-map-explorer": "^2.4.2",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "env-cmd -f .env react-scripts start",
+    "build": "env-cmd -f ./prod.env react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
